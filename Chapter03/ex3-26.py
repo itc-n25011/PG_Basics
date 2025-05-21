@@ -5,8 +5,18 @@ elif x == 20:
    print("20!")
 else:
    print("分かりません!")
+<<<<<<< HEAD
 if x == 100:
    print("xは偶数")
 else:
    print("Xは奇数")
 
+=======
+
+if x == 100:
+   print("x100!")
+if x % 2 == 0:
+   print("xは偶数!")
+else:
+   print("xは奇数")
+>>>>>>> CH03

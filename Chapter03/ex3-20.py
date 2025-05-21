@@ -4,3 +4,7 @@ if home == "アメリカ":
 else:
    print("Hello, World")
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> CH03
