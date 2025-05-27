@@ -1,11 +1,3 @@
-def number(a,b,c,y=6,z=3):
-    result = int(a + b + c + y + z) #入力値をたし算する
-    print("入力された整数を足した結果=", result)
-a = 1
-b = 2
-c = 3
-number(a,b,c)
-
 """
 この関数は、３つの必須の引数と2つのオプション引数を受け取ります。
 また、その引数の全てを加算してプログラムに返す。
@@ -16,5 +8,15 @@ number(a,b,c)
     戻り値:
     result----加算(出力） 結果
 """
+
+def number(a,b,c,y=6,z=3):
+    result = int(a + b + c + y + z) #入力値をたし算する
+    print("入力された整数を足した結果=", result)
+a = 1
+b = 2
+c = 3
+number(a,b,c)
+
+
 
 

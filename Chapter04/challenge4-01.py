@@ -1,9 +1,3 @@
-def f(x):
-    return x * 3
-f(3)
-result = f(3)
-print(result)
-
 """
 この関数は、入力された整数の二乗を求めます。
 また、メーセージと求めた結果を出力します。
@@ -13,6 +7,13 @@ print(result)
 引数:なし
 戻り値：なし
 """
+def f(x):
+    return x * 3
+f(3)
+result = f(3)
+print(result)
+
+
 
     
   
